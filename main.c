@@ -1,14 +1,10 @@
-//Creating a Triangle 
+#include <stdio.h>  
+// used to import the nnecessary libraries required.
+// our main function.
 
-#include <stdio.h>
-#include <stdlib.h>
-
-int main()
+int main(void)
 {
-    printf("   /|\n");
-    printf("  / |\n");
-    printf(" /  |\n");
-    printf("/___|\n");
-
+    puts("Hello 5683 students");
+    
     return 0;
 }
