@@ -1,3 +1,5 @@
+//Creating a Triangle 
+
 #include <stdio.h>
 #include <stdlib.h>
 
