@@ -25,6 +25,7 @@ printf("size of the float data type is: %zu bytes\n", sizeof(f));
     printf("size of the unsigned long data type is: %zu bytes\n", sizeof(ul));
     printf("size of the int data type is: %zu bytes\n", sizeof(i));
     printf("size of the unsigned int data type is: %zu bytes\n", sizeof(ui));
+    printf("size of the short data type is : %hd \n", sizeof(s));
 
 // Printing out the maximum and minininum values of the data types
 printf("Maximum value of float: %f\n", FLT_MAX);
