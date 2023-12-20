@@ -9,7 +9,7 @@
 int main(){
     double ans = 10.0 + 2.0/((3.0 - 2.0 )*2.0);
 
-    printf("answer is : %lf", ans);
+    printf("answer is : %lf \n " , ans);
 
     return 0;
 }
