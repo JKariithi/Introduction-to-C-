@@ -1,4 +1,7 @@
 #include <stdio.h>  
+//  stdio.h means ; Standard input output header file 
+
+
 // used to import the nnecessary libraries required.
 // our main function.
 
