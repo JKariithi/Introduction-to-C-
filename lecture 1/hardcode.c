@@ -1,9 +1,11 @@
 #include <stdio.h>
 // using operations to check if  a character is lower case, upper case , a digit
 // or a special character.
+// printf = our output
+// scanf = our input
 void main(){
     char c ;
-    printf("Enter Character: \n");
+    printf("Enter Character: \n"); 
     scanf("%c \n",&c);
 
     if (c>= 'A' && c<= 'Z')
