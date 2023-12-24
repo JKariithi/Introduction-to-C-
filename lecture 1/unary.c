@@ -6,11 +6,19 @@ int main(){
 
     int y = 11;
     int x = 12;
-    y = x ++ ;
-    printf("%d ",x);
-    
-    printf("%d ",y);
 
+    int a = 13;
+    int b = 14;
+
+    y = x ++ ;
+    a = ++ b;
+    printf("%d \n",x );
+    
+    printf("%d \n",y );
+    
+    printf("%d \n",a);
+
+    printf("%d \n",b);
     return 0;
 }
 // I will do more examples to make sure I undersatand.
