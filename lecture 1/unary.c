@@ -9,8 +9,9 @@ int main(){
 
     int a = 13;
     int b = 14;
-
+   //postfix
     y = x ++ ;
+    //prefix 
     a = ++ b;
     printf("%d \n",x );
     
