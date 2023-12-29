@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main(){
-
+   //comments 
     int y = 11;
     int x = 12;
 
