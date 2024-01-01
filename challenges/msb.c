@@ -1,14 +1,16 @@
 // Check the most significant bit of a number 
 #include <stdio.h>
-#define BITS sizeof(int) * 2
+#define BITS sizeof(int)*2 
 int main(){
 
      int num, msb;
     
     //  input of the user 
-    printf("Enter a number: ");
+    printf("Enter a binary number: ");
     scanf("%d",&num);
     //don't leave a space in the quotes of scan f,leads to erroe 
+    
+    printf("\n");
     // calulating the msb 
     msb = 1 << (BITS - 1);
     // This shifts one to the left most/ highest order 
