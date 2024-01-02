@@ -1,5 +1,6 @@
 
 // Reversing the byte order of a hexadecimal number 
+//how to communicate from little endian to big endian 
 #include <stdio.h>
 
 int main() {
