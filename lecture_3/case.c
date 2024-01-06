@@ -14,7 +14,7 @@ int main (){
     // case 27: means a = 27 then do what follows 
   case 27: 
     printf("Janice \n");
-   // break;
+    break;
      //if a = 27 and there is no break all of the cases will
      // be printed out plus default 
   case 225: 
@@ -22,7 +22,7 @@ int main (){
    //default means if the particular case is not defined do the following
    case 45:
     printf("Sophie \n");
-  default:
+  default://The default value doesn't have to be here can be at the begin too
   printf("Janice and Jerry \n");
     break;
   }
