@@ -1,11 +1,14 @@
-// A program to print a to z using while loop
+// A program to print z to a using while loop
+//using ascii values 
 #include <stdio.h>
 void main (){
-    char ch = 'a';
+    int i = 122;
     printf("learn your abc's below \n\n");
-    while (ch <='z'){
-        printf("%c \n",ch) ;
-        ch++;
+    while (i >= 97){
+        //prints the character values of this numbers 
+        //so prints out a-z (122 - 97)
+        printf("%c \n",i) ;
+        i--;
     }
 
 }
