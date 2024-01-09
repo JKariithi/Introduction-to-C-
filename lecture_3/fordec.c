@@ -2,7 +2,7 @@
 #include <stdio.h>
 void main(){
     int i=10;
-    for (;i>0;i--)
+    for (;i>0;i--)//if you put a ; here the for loop is terminated
      printf("%d \n",i);
 //if i is greater than 0 print .
 }
