@@ -11,7 +11,6 @@ int main() {
     // Isolate the last 4 bits
     bits = (val & 0xF); // Changed the mask to isolate the last 4 bits
     printf("The isolated value: 0x%X\n ",bits);
-    
 
     // Condition to check if the last 3 bits are set on
     // the values that fit this equality is 
@@ -20,7 +19,7 @@ int main() {
     //0xD = 1101
     //0xE = 1110
     //0xF = 1111
-    if ( bits==0x7 || bits==0xB || (bits>=0xD)){
+    if ( bits==0x7 || bits==0xF){
         printf("Last 3 or 4 bits are  on\n");
     } else {
         printf("Last 3 or 4 bits are not  on\n");

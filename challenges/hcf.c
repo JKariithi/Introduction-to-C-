@@ -12,10 +12,11 @@ void main (){
     highest = num2 ;
   for(i=1; i < highest;i++){
    if ( num1 % i == 0 && num2 % i == 0){
-      printf("%d\n", hcf);
       hcf *= i;
       num1 /= i;
       num2 /= i;
+  
+      
    }
 
 
