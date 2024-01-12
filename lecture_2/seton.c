@@ -20,9 +20,9 @@ int main() {
     //0xE = 1110
     //0xF = 1111
     if ( bits==0x7 || bits==0xF){
-        printf("Last 3 or 4 bits are  on\n");
+        puts("Last 3 or 4 bits are  on\n");
     } else {
-        printf("Last 3 or 4 bits are not  on\n");
+        puts("Last 3 or 4 bits are not  on\n");
     }
 
     return 0;

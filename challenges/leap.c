@@ -16,8 +16,8 @@ int main()
      * else
      *     print common year 
      */
-    (year%4==0 && year%100!=0) ? printf("LEAP YEAR") :
-        (year%400 ==0 ) ? printf("LEAP YEAR") : printf("COMMON YEAR");  
+    (year%4==0 && year%100!=0) ? puts("LEAP YEAR") :
+        (year%400 ==0 ) ? puts("LEAP YEAR") : puts("COMMON YEAR");  
         
     return 0;
 //What I learn is how to use mod operator.
