@@ -18,6 +18,7 @@ void main()
         denominator = num1;
     }
     remainder = numerator % denominator;
+    printf("%d", remainder)
    
     while (remainder != 0)
     {
