@@ -1,26 +1,32 @@
-// find the hcf of two numbers 
-#include <stdio.h>
-void main (){
-   int num1,num2,i,hcf = 1,highest;
-  printf("Enter first number: ");
-  scanf("%d",&num1);
-  printf("Enter second number: ");
-  scanf("%d",&num2);
-  if (num1 > num2)
-    highest = num1;
- else 
-    highest = num2 ;
-  for(i=1; i < highest;i++){
-   if ( num1 % i == 0 && num2 % i == 0){
-      hcf *= i;
-      num1 /= i;
-      num2 /= i;
-  
-      
-   }
-
-
-  }
-
-printf("hcf = %d \n", hcf);
+//highest common factor
+#include<stdio.h>
+ 
+void main()
+{
+    int num1, num2, hcf, remainder, numerator, denominator;
+ 
+    printf("Enter two numbers\n");
+    scanf("%d %d", &num1, &num2);
+    if (num1 > num2)
+    {
+        numerator = num1;
+        denominator = num2;
+    }
+    else
+    {
+        numerator = num2;
+        denominator = num1;
+    }
+    remainder = numerator % denominator;
+   
+    while (remainder != 0)
+    {
+        numerator   = denominator;
+        denominator = remainder;
+        remainder   = numerator % denominator;
+    }
+    //this loop continues until the remainder value is 0;
+    //the denominator that provides this is hcf
+    hcf = denominator;
+    printf("HCF of %d and %d = %d\n", num1, num2, hcf);
 }
