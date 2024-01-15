@@ -16,12 +16,12 @@ char fun();
 void main(){
     char ch;
     ch =fun();
-    printf("ch = %c",ch);
+    printf("ch = %c \n",ch);
 }
 char fun(){
     char c;
     printf("Enter a character: \n");
     scanf("%c",&c);
-    return c; //store's the character inputed 
-    //
+    return 'c'; //store's the character inputed 
+    // changing it to 'c' it ignores all other values inputted and returns c
 }
