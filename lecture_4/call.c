@@ -1,7 +1,7 @@
 // Call by reference 
-
+//pointer neeeded in declaration also 
 #include <stdio.h>
-int val();
+int val(int*, );
 
 void main(){
     int a = 50, b = 70;
