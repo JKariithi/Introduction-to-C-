@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int conversion(int, int , int);
-int main(){
-    int fahr , celsius ;
+float conversion(float, float , float);
+float main(){
+    float fahr , celsius ;
     fahr = 0;
     celsius = conversion(fahr, 300, 20);
     printf("The table of conversion of Farenheit to degree celsius is as shown above \n\n");
@@ -10,12 +10,12 @@ int main(){
     return 0;
 
 }
-int conversion(int lower, int upper, int step){
-    int fahr,celsius;
+float conversion(float lower, float upper, float step){
+    float fahr,celsius;
     fahr = lower ;
     while  (fahr <= upper ){
-        celsius = 5*(fahr - 20)/9;
-         printf("%d\t%d\n",fahr,celsius);
+        celsius = 5.0*(fahr - 32.0)/9.0;
+         printf("%3.0f\t%3.2f\n",fahr,celsius);
         fahr += 20;
     }
 
