@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int conversion(int lower, int upper, int step);
+int conversion(int, int , int);
 int main(){
     int fahr , celsius ;
     fahr = 0;
