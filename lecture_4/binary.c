@@ -20,7 +20,4 @@ int TestData (int *num){
     }
     printf("%d",bit);
     return 0;
-
-
-   
 }
