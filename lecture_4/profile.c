@@ -8,11 +8,12 @@ static unsigned int results_buffer [NMAX];
 
 void fibonacci()
 {
-//  here are the variables to set as registers
+//  We set the variables to registers and since they store value in the CPU instead of the memory we are able to retrieve the
+// the values fster thus execution time is less. 
 register unsigned int a = 0 ;
 register unsigned int b = 1 ;
 register unsigned int c ;
-int n ;
+register int n ;
 
 //  do not edit below this line
 results_buffer [0] = a;
